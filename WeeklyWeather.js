@@ -9,7 +9,8 @@ class WeeklyWeather {
 
   remove(id) {
     this.weatherList.splice(
-      this.weatherList.indexOf(this.weatherList.find((day) => day.id === id))
+      this.weatherList.indexOf(this.weatherList.find((day) => day.id === id)),
+      1
     );
   }
 
