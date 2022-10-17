@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./components/weather/weather.css" />
+    <!-- Bootstrap CSS (jsDelivr CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app__weather"></div>
+    </div>
+
+    <!-- scripts -->
+    <script src="./components/weather/models/weather.js"></script>
+    <script src="./components/weather/models/weather-detailed.js"></script>
+    <script src="./components/weather/weather.renderer.js"></script>
+    <script src="./components/weather/weather-data-downloader.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
